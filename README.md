@@ -1,33 +1,48 @@
-# Estagiários dos Amigos 🚀
+# TODO - Estagiários dos Amigos 🚀
 
-Bem-vindo ao **Programa dos Estagiários dos Amigos**!  
-Este é um projeto em **Java** criado com muito bom humor pelos estagiários **Artur**, **Vinicius** e **Mateus**. Aqui você encontrará um exemplo divertido e educativo para explorar conceitos de programação e, claro, dar boas risadas! 😄
+## Tarefas para o Projeto
+
+- [x] **Criar Estrutura do Projeto**  
+  - [x] Organizar diretórios (`src`, `docs`, `tests`)
+  - [x] Configurar o `README.md`
+  - [x] Criar este arquivo `TODO.md`
+
+- [ ] **Implementar Funcionalidades Básicas**  
+  - [ ] **Main.java**: Desenvolver a classe principal com o fluxo de execução
+  - [ ] **Utilidades.java**: Adicionar métodos auxiliares e divertidos (ex.: funções com piadas e emojis)
+  - [ ] Exemplificar estruturas de controle (loops, condicionais) e manipulação de strings
+
+- [ ] **Testes e Validações**  
+  - [ ] Escrever testes unitários para as principais funcionalidades
+  - [ ] Validar tratamento de exceções e erros
+  - [ ] Realizar testes de performance e uso de memória
+
+- [ ] **Documentação e Estilo de Código**  
+  - [ ] Adicionar comentários descontraídos e informativos com emojis
+  - [ ] Revisar a documentação para garantir clareza e bom humor
+  - [ ] Padronizar o estilo de código conforme as boas práticas
+
+- [ ] **Deploy e Distribuição**  
+  - [ ] Criar um script de build (opcional)
+  - [ ] Preparar o projeto para distribuição no GitHub
+  - [ ] Escrever instruções de instalação e execução detalhadas
 
 ---
 
-## 📚 Sobre o Projeto
+## Ideias e Inspirações 🎉
 
-Este programa foi desenvolvido para:
-- Demonstrar conceitos básicos (e não tão básicos) de Java.
-- Aprender e se divertir com código.
-- Mostrar que, mesmo estagiários, podemos criar algo incrível! 💪
-
-O projeto inclui exemplos de:
-- **Estruturas de Controle**
-- **Manipulação de Strings**
-- **Coleções e Listas**
-- **Tratamento de Exceções**  
-...e muitas outras surpresas!
+- "Se o código está bugado, chame os estagiários e sorria, porque eles também são humanos!" 🤣
+- Inserir memes e referências divertidas dentro dos comentários do código
+- Incentivar a colaboração e a criatividade de todos os envolvidos
 
 ---
 
-## ⚙️ Como Executar
+## Contribuição 🤝
 
-### Pré-requisitos
-- **Java 8** ou superior instalado.
-- Um **IDE** ou editor de sua preferência (Eclipse, IntelliJ, VS Code, etc.).
+Se você tem uma ideia para deixar este projeto ainda mais divertido e funcional, abra uma issue ou envie um pull request!  
+Vamos transformar este projeto em uma experiência única, colaborativa e repleta de bom humor!
 
-### Passos para Rodar o Programa
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/seu-usuario/estagiarios-dos-amigos.git
+---
+
+**Nota:**  
+Este arquivo TODO é o nosso guia para acompanhar o progresso do projeto. Mantenha-o atualizado conforme novas tarefas surgirem e os objetivos forem alcançados!  
