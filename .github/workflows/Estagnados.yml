@@ -2,7 +2,7 @@ name: pipeline de testes
 
 on:
   push:
-    brances:
+    branches:
       - main
     pull_requestes:
       - main
@@ -12,8 +12,8 @@ jobs:
 
     steps:
        - name: Checar o repositório
-         uses: actions/checkout@v2
+         uses: actions/checkout@v2  # Ação para fazer o checkout do código do repositório
 
        - name: Executar testes
          run: |
-            python -m unittest discover
+            python -m unittest discover Estagnados/testes
