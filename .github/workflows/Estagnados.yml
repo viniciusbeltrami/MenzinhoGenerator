@@ -16,4 +16,4 @@ jobs:
 
        - name: Executar testes
          run: |
-            python -m unittest discover Estagnados/testes
+            python -m unittest discover Estagnados
