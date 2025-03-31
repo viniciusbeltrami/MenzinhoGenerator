@@ -13,13 +13,7 @@ jobs:
     steps:
        - name: Checar o repositório
          uses: actions/checkout@v2
-
-       - name: Instalar dependências
-         run: |
-            python -m venv venv
-            source venv/bin/activate
-            pip install -r requirements.txt
-
+         
        - name: Executar testes
          run: |
             source venv/bin/activate
