@@ -1,0 +1,26 @@
+name: pipeline de testes
+
+on:
+  push:
+    brances:
+      - main
+    pull_requestes:
+      - main
+jobs:
+  builds:
+    runs-on: ubuntu-latest
+
+    steps:
+       - name: Checar o repositório
+         uses: actions/checkout@v2
+
+       - name: Instalar dependências
+         run: |
+            python -m venv venv
+            source venv/bin/activate
+            pip install -r requirements.txt
+
+       - name: Executar testes
+         run: |
+            source venv/bin/activate
+            python -m unittest discover
