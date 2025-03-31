@@ -13,8 +13,7 @@ jobs:
     steps:
        - name: Checar o repositório
          uses: actions/checkout@v2
-         
+
        - name: Executar testes
          run: |
-            source venv/bin/activate
             python -m unittest discover
