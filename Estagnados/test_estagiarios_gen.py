@@ -1,5 +1,5 @@
 import unittest
-from EstagiariosGen import estagiarios
+from estagiarios_gen import estagiarios
 
 class TestGeradorEstagiarios(unittest.TestCase):
     def setUp(self):

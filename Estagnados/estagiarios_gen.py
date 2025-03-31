@@ -1,4 +1,4 @@
-from Estagiario import Estagiario
+from estagiarios import Estagiario
 
 estagiarios = [
     Estagiario('Artur','Menzinho'),
